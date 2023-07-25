@@ -55,7 +55,7 @@ if __name__ == '__main__':
     try:
         date = [i for i in sys.argv[1:] if '--date' in i][0].split('=')[1]
     except IndexError:
-        print('Вы не указали необходимую валюту в аргументe --date')
+        print('Вы не указали необходимую дату в аргументe --date')
         sys.exit(-1)
 
     try:
