@@ -61,5 +61,5 @@ if __name__ == '__main__':
     try:
         print(functions[function](currency, date))
     except KeyError:
-        print(f'Функции "{function}" не существует')
+        print(f'Функция "{function}" не существует')
         sys.exit(-1)
